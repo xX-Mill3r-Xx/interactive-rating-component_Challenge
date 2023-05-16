@@ -11,7 +11,7 @@ O desafio consistia em construir um componente de classificação onde os usuár
 ![Preview do Desafio Concluído](screen_shots/Captura01.png)
 ![Preview do Desafio Concluído02](screen_shots/Captura02.png)
 
-Você pode conferir a versão final do desafio hospedada [aqui](link para a hospedagem do desafio).
+Você pode conferir a versão final do desafio hospedada [aqui](https://xx-mill3r-xx.github.io/interactive-rating-component_Challenge/).
 
 ## Tecnologias Utilizadas
 
