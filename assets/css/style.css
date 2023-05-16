@@ -1,0 +1,152 @@
+:root{
+    /* Colors */
+
+    /* Primary */
+    --Orange: hsl(25, 97%, 53%);
+
+    /* Neutral */
+    --Black: #070606;
+    --White: hsl(0, 0%, 100%);
+    --Light_Grey: hsl(217, 12%, 63%);
+    --Medium_Grey: hsl(216, 12%, 54%);
+    --Dark_Blue: hsl(213, 19%, 18%);
+    --Very_Dark_Blue: hsl(216, 12%, 8%);
+}
+
+body{
+    font-family: 'Overpass', sans-serif;
+    background-color: var(--Black);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    max-width: 100%;
+    width: 412px;
+    background-color: var(--Very_Dark_Blue);
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.image-star{
+    background-color: var(--Dark_Blue);
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    color: var(--White);
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 36px;
+}
+
+.main-content h1{
+    margin: 30px 0 7px 0;
+}
+
+.text{
+    color: var(--Light_Grey);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.main-content .text{
+    margin-bottom: 24px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 33px;
+}
+
+li{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    color: var(--Light_Grey);
+    background-color: var(--Dark_Blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+li.active{
+    background: var(--Very_Dark_Blue);
+    color: var(--Orange);
+}
+
+li:hover{
+    background-color: var(--Orange);
+    color: var(--White);
+}
+
+button{
+    width: 100%;
+    padding: 13px 0;
+    text-align: center;
+    color: var(--White);
+    font-family: inherit;
+    background-color: var(--Orange);
+    border: none;
+    border-radius: 30px;
+    font-weight: 600px;
+    font-size: 15px;
+    letter-spacing: 2.1px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: var(--White);
+    color: var(--Orange);
+}
+
+.thaks-content{
+    text-align: center;
+}
+
+.thaks-content img{
+    margin-top: 15px;
+}
+
+.result{
+    font-weight: 300px;
+    color: var(--Orange);
+    margin: 33px 0;
+    padding: 3px 18px;
+    background-color: var(--Dark_Blue);
+    border-radius: 30px;
+    display: inline-block;
+}
+
+.thaks-content h1{
+    margin-bottom: 6px;
+}
+
+.thaks-content .text{
+    margin-bottom: 12px;
+}
+
+.hide{
+    display: none;
+}
+
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
